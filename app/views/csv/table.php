@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>All Tasks</h1>
+            <h1>All Users</h1>
             <table class="table">
                 <thead>
                 <tr>
@@ -32,7 +32,7 @@
         </div>
     </div>
     <a href="/" class="btn btn-primary">
-        General page
+        Import data
     </a>
 </div>
 

@@ -9,6 +9,7 @@
 <?=$this->section('content')?>
 
 <script>
+    //Проверка на размер загружаемого файла
     var uploadField = document.getElementById("file");
 
     uploadField.onchange = function() {

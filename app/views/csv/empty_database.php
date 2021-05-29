@@ -9,6 +9,6 @@
 <br>
 <br>
 <a href="/" class="btn btn-primary">
-    General page
+    Import data
 </a>
 </div>

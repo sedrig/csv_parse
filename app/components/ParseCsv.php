@@ -6,6 +6,10 @@ namespace App\components;
 
 class ParseCsv
 {
+    /**
+     * Метод придназначен для парсинга csv файла в ассоциативный массив
+     * Входящие данные $file_path, где нужно указать полный путь к файлу csv
+    **/
     public function parse_in_array($file_path, $file_encodings = ['cp1251','UTF-8'], $col_delimiter = '', $row_delimiter = ""){
         if( ! file_exists($file_path) )
             return false;
